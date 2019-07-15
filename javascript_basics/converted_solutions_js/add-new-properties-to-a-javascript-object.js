@@ -3,21 +3,18 @@ var ourDog = {
   "name": "Camper",
   "legs": 4,
   "tails": 1,
-  "friends": ["everything!"],
-  "bark": "bow-wow"
+  "friends": ["everything!"]
 };
 
-delete ourDog.bark;
+ourDog.bark = "bow-wow";
 
 // Setup
 var myDog = {
   "name": "Happy Coder",
   "legs": 4,
   "tails": 1,
-  "friends": ["freeCodeCamp Campers"],
-  "bark": "woof"
+  "friends": ["freeCodeCamp Campers"]
 };
 
 // Only change code below this line.
-
-delete myDog.tails;
+myDog["bark"] = "Woof";
