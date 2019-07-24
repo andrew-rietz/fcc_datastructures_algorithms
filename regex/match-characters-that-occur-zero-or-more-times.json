@@ -1,0 +1,1 @@
+{"index.js":"let chewieQuote = \"Aaaaaaaaaaaaaaaarrrgh!\";\nlet chewieRegex = /^[a]a*/i; // Change this line\nlet result = chewieQuote.match(chewieRegex);\n\nconsole.log(result)"}

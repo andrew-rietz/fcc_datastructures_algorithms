@@ -1,0 +1,1 @@
+{"index.js":"let username = \"JackOfAllTrades\";\nlet userCheck = /[a-z][a-z]*\\d*$/ig; // Change this line\nlet result = userCheck.test(username);\n\nconsole.log(\"JACK\".match(userCheck))"}
