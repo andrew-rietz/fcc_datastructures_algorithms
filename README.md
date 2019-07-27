@@ -1,3 +1,3 @@
 # fcc_datastructures_algorithms course
 
-https://learn.freecodecamp.org
+[Link](https://learn.freecodecamp.org)
