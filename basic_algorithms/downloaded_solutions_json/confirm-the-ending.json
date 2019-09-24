@@ -1,0 +1,1 @@
+{"index.js":"function confirmEnding(str, target) {  \n  return str.substring(str.length - target.length) == target\n}\n\nconsole.log(confirmEnding(\"Bastian\", \"n\"));"}

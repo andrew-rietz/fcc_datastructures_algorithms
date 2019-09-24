@@ -1,0 +1,1 @@
+{"index.js":"function mutation(arr) {\n  let firstWord = arr[0].toLowerCase()\n  let secondWordLetters = arr[1].toLowerCase().split(\"\")\n  let diff = secondWordLetters.filter(\n    letter => !firstWord.includes(letter));\n  return diff == \"\"\n}\n\nconsole.log(mutation([\"hello\", \"hey\"]))"}

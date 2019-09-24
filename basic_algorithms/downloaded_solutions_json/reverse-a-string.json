@@ -1,0 +1,1 @@
+{"index.js":"function reverseString(str) {\n  let letter;\n  let newStr = '';\n  for (letter of str){\n    newStr = letter + newStr;\n  }\n  return newStr;\n}\n\nconsole.log(reverseString(\"hello\"));"}

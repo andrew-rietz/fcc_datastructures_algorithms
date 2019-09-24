@@ -1,0 +1,1 @@
+{"index.js":"function getIndexToIns(arr, num) {\n  let index = (arr.map(function(val){\n    return val < num;\n  })).reduce((a, b) => (a + b), 0)\n\n  return index;\n}\n\nconsole.log(getIndexToIns([40, 60], 50));"}

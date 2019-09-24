@@ -21,8 +21,8 @@ class Convert_FCC_JSON_to_JS():
 
 def main():
     converter = Convert_FCC_JSON_to_JS(
-        "/Users/andrewrietz/Desktop/freecodecamp_datastructures_algorithms/regex/downloaded_solutions_json",
-        "/Users/andrewrietz/Desktop/freecodecamp_datastructures_algorithms/regex/converted_solutions_js",
+        "/Users/andrewrietz/Desktop/freecodecamp_datastructures_algorithms/basic_algorithms/downloaded_solutions_json",
+        "/Users/andrewrietz/Desktop/freecodecamp_datastructures_algorithms/basic_algorithms/converted_solutions_js",
         )
     converter.convert()
 
